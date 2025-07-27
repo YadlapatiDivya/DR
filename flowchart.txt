@@ -1,0 +1,49 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Diabetic Retinopathy
+		- APTO
+		- Messidor
+		- RFMiD
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+		
+4. Building the model 
+
+	- ResNet50
+	- ResNet152
+	- ResNet101
+	- CNN
+	- AlexNet
+	- InceptionV3
+	- InceptionResNetV2
+	- Deep Residual Network
+	- DenseNet201
+	- DenseNet121
+	- Xception
+
+5. Training and Building the model 
+6. Dumping the model
+
+Flask Framework
+----------------
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed and segmented 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
+
+
+Extension
+------------
+In the base paper, the author mentioned to use different models for analysis the Diabetic Retinopathy dataset using different CNN models,  
+However, we can further enhance the performance by exploring other techniques such Xception model for classification
+from which Xception got 99% of accuracy, 
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
